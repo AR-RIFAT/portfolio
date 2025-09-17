@@ -31,21 +31,25 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection }) => {
         {/* Social Icons */}
         <div className='flex space-x-3 mb-10'>
           <a
-            href='#'
+            href='https://github.com/AR-RIFAT'
+            target='_blank'
+            rel='noopener noreferrer'
             className='p-2 bg-white dark:bg-blue-800 rounded-full text-blue-800 dark:text-white hover:bg-blue-100 dark:hover:bg-blue-700 transition-colors'
             aria-label='GitHub'
           >
             <Github size={18} />
           </a>
           <a
-            href='#'
+            href='https://www.linkedin.com/in/md-ashraful/'
+            target='_blank'
+            rel='noopener noreferrer'
             className='p-2 bg-white dark:bg-blue-800 rounded-full text-blue-800 dark:text-white hover:bg-blue-100 dark:hover:bg-blue-700 transition-colors'
             aria-label='LinkedIn'
           >
             <Linkedin size={18} />
           </a>
           <a
-            href='#'
+            href='mailto:mdashraful.rahman@utas.edu.au'
             className='p-2 bg-white dark:bg-blue-800 rounded-full text-blue-800 dark:text-white hover:bg-blue-100 dark:hover:bg-blue-700 transition-colors'
             aria-label='Email'
           >

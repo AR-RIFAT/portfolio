@@ -289,7 +289,7 @@ const EducationSection: React.FC = () => {
   return (
     <section id='education' className='py-16'>
       <div className='max-w-4xl mx-auto'>
-        <h2 className='text-5xl font-bold text-blue-900 dark:text-white mb-12'>
+        <h2 className='text-4xl font-bold text-blue-900 dark:text-white mb-12'>
           My Academic History
         </h2>
         {educations.map((education) => (

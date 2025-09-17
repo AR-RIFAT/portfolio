@@ -72,10 +72,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className='absolute top-20 right-10 opacity-90 pointer-events-none'>
           <Cloud size='lg' />
         </div>
-        <div className='absolute top-[22rem] opacity-80 pointer-events-none'>
+        <div className='absolute top-[18rem] left-6 opacity-80 pointer-events-none'>
           <Cloud size='md' />
         </div>
-        <div className='absolute top-[30rem] right-1/4 opacity-70 pointer-events-none'>
+        <div className='absolute top-[32rem] right-1/4 opacity-70 pointer-events-none'>
           <Cloud size='sm' />
         </div>
         {/* Theme toggle */}

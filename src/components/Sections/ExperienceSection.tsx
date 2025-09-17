@@ -28,7 +28,7 @@ const ExperienceSection: React.FC = () => {
   return (
     <section id='experience' className='py-16'>
       <div className='max-w-4xl mx-auto'>
-        <h2 className='text-5xl font-bold text-blue-900 dark:text-white mb-8'>
+        <h2 className='text-4xl font-bold text-blue-900 dark:text-white mb-8'>
           Where I've Worked
         </h2>
         {experiences.map((experience, index) => (
