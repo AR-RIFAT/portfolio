@@ -69,7 +69,7 @@ const AboutSection: React.FC = () => {
     <section id='about' className='pt-16 md:pt-24 pb-16'>
       <div className='max-w-4xl mx-auto'>
         <h1 className='text-4xl md:text-5xl font-bold text-blue-900 dark:text-white mb-6'>
-          Welcome
+          G'day!
         </h1>
         <h2 className='text-3xl md:text-4xl font-bold text-blue-800 dark:text-blue-200 mb-6'>
           I'm Md Ashraful Rahman
