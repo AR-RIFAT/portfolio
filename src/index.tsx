@@ -6,7 +6,10 @@ import { App } from './App';
 const container = document.getElementById('root');
 
 // Create a React root
-const root = createRoot(container!);
+if (!container) {
+  throw new Error('Root element not found');
+}
+const root = createRoot(container);
 
 // Render the app
 root.render(<App />);
