@@ -32,9 +32,6 @@ const EducationCard: React.FC<EducationCardProps> = ({
               <Calendar className='w-4 h-4 mr-1' />
               <span>{duration}</span>
             </div>
-            <div className='flex items-center text-blue-600 dark:text-blue-400'>
-              <span className='font-medium'>GPA: {gpa}</span>
-            </div>
           </div>
           <button
             onClick={onViewCourses}

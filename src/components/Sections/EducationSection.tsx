@@ -24,7 +24,7 @@ const EducationSection: React.FC = () => {
       degree: 'Master of Information Technology and Systems',
       institution: 'University of Tasmania',
       duration: 'Feb 2023 – Nov 2024',
-      gpa: '6.88/7',
+      gpa: '',
       courses: [
         {
           title: 'Web Development',
@@ -192,7 +192,7 @@ const EducationSection: React.FC = () => {
       degree: 'B.Sc. in Computer Science and Engineering',
       institution: 'Shahjalal University of Science and Technology',
       duration: 'Feb 2016 – Nov 2020',
-      gpa: '3.45/4',
+      gpa: '',
       courses: [
         {
           title: 'Data Structures',
